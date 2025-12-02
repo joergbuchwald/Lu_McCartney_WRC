@@ -140,7 +140,7 @@ class lu_mc_cartney:
 
 
     def psi_max(self, T):
-        umax = self.R * T * self.c(T) / (3000.0 * self.nu_w)
+        umax = self.R * T * self.c(T) / (3.0 * self.nu_w)
         return umax
 
     def bw(self, T):
